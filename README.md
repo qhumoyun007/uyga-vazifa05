@@ -89,9 +89,9 @@ import math
 #     print("turli tomonli")
 #13
 a=float(input())
-if a>0:
-    print("musbat")
-elif a<0:
-    print("manfiy")
-elif a==0:
-    print("nol")
+# if a>0:
+#     print("musbat")
+# elif a<0:
+#     print("manfiy")
+# elif a==0:
+#     print("nol")
