@@ -217,3 +217,9 @@ import math
 #     print("ogohlantirish")
 # else:
 #     print()
+#28
+# a=int(input())
+# if a==0:
+#     print("noto'g'ri ma'lumot")
+# else:
+#     print("olg'a")
