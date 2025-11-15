@@ -95,3 +95,125 @@ a=float(input())
 #     print("manfiy")
 # elif a==0:
 #     print("nol")
+#14
+# a=int(input("haftaning qaysi kuni?:"))
+# if a<=7:
+#     if a==1:
+#         print("1-dushanba")
+#     elif a==2:
+#         print("2-seshanba")
+#     elif a==3:
+#         print("3-chorshanba")
+#     elif a==4:
+#         print("4-payshanba")
+#     elif a==5:
+#         print("5-juma")
+#     elif a==6:
+#         print("6-shanba")
+#     elif a==7:
+#         print("7-yakshanba")
+# else:
+#     print("haftada 7 kun bor")
+#15
+# a=int(input("fasllarni kiriting:"))
+# if a<=12:
+#     if a==1 or a==2 or a==12:
+#         print("qish")
+#     elif a==3 or a==4 or a==5:
+#         print("bahor")
+#     elif a==6 or a==7 or a==8:
+#         print("yoz")
+#     elif a==9 or a==10 or a==11:
+#         print("kuz")
+# else:
+#     print("1 yilda 12 oy bor")
+#16
+import math
+
+# x=float(input("x ni kiriting"))
+# if x<0:
+#     a=abs(x)
+#     print(a)
+# elif 0<=x<=5:
+#     a=x**2
+#     print(a)
+# elif x>5:
+#     a=2*x+3
+#     print(a)
+#17
+# a=int(input("tezlikni kiriting:"))
+# if 60<a<80:
+#     print("ogohlantirish")
+# elif 80<a<100:
+#     print("kichik jarima")
+# elif a>100:
+#     print("katta jarima")
+#18
+# a=int(input("maoshingizni kiriting:"))
+# if a<3000000:
+#     print("past daromad")
+# elif 3000000<=a<=10000000:
+#     print("o'rtacha daromad")
+# elif a>10000000:
+#     print("yuqori daromad")
+#19
+# a=input("hosila olinadigan funksiyani kiriting:")
+# if a=="x**2":
+#     print("2*x")
+# elif a=="sinx":
+#     print("cosx")
+# elif a=="e**x":
+#     print("e**x")
+#20
+# a=int(input("kompyuter zaryadini kiriting:"))
+# if a>80:
+#     print("to'liq")
+# elif 30<a<80:
+#     print("normal")
+# elif a<30:
+#     print("kam")
+#21
+# a=['a','b','c','d','e','f','g','h','i','j','k','l','m','n','o','p','q','r','s','t','u','v','x','y','z']
+# b=[]
+# c=[]
+# for i in a:
+#     if i=='a' or i=='e' or i=='i' or i=='o' or i=='u':
+#         b.append(i)
+#     else:
+#         c.append(i)
+# print("unli:",b)
+# print("undosh:",c)
+#22
+# users = ["qhumoyun007","humoyun3234", "humoyun1907", "humoyun007"]
+# login = input("Yangi login tanlang: ")
+# if login in users:
+#     print("Login band, yangi login tanalng!")
+# else:
+#     print("Xush kelibsiz!")
+#23
+# a=["A","B","C"]
+# b=input("diplom bahosini kiriting:")
+# if b.title() in a:
+#     print("ustama olishingiz mumkin")
+# else:
+#     print("marhamat ish xaqqingiz")
+#25
+# kun=input("Bugun nima kun?:")
+# if kun.lower()=="shanba" or kun.lower()=="yakshanba":
+#     print("Bugun dam olish kuni")
+# else:
+#     print("Bugun ish kuni")
+#26
+# a=["promo","kod"]
+# b=input("promokodni kiriting:")
+# if b.title() in a:
+#     print("chegirma")
+# else:
+#     print("noto'g'ri promokod")
+#27
+# a=["yolg'on","sen"]
+# b=input()
+# if b.title() in a:
+#     print("ogohlantirish")
+# else:
+#     print()
